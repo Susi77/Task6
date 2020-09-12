@@ -1,7 +1,0 @@
-{
-  "ConnectionStrings": {
-
-    "ADONETConnectionString": "Server = DESKTOP-GNPRQ15\\SUSI; Database = HR ; Trusted_Connection=True;"
-
-  }
-}
