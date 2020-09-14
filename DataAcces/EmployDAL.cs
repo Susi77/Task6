@@ -23,7 +23,7 @@ namespace Connected.DataAcces
 
             try
             {
-                using (SqlConnection con = new SqlConnection(AppSettings.ConnectionString))
+                using (SqlConnection con = new SqlConnection("Server=DESKTOP-GNPRQ15\\SUSI;Database=HR;Trusted_Connection=True;"))
                 {
 
                     using (SqlCommand cmd = new SqlCommand(sql, con))
